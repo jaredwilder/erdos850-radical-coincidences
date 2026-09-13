@@ -1,0 +1,10 @@
+{
+  "result": "PASS",
+  "bound": 30000,
+  "two_term_pairs": 7,
+  "three_term_pairs": 0,
+  "independent_pair_rechecks": 7,
+  "selftest": "selftest known radicals: 25 checked, 0 bad",
+  "scope": "Small control only; historical 464637500000 frontier not rerun",
+  "date": "2026-09-13"
+}

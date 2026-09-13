@@ -1,0 +1,169 @@
+{
+  "source_repo": "jaredwilder/erdos-computational-searches",
+  "source_commit": "ba3cf88f9cc5e4dbfa3c26eb96dc3271bb1f852c",
+  "source_prefix": "erdos850",
+  "destination_repo": "jaredwilder/erdos850-radical-coincidences",
+  "files": [
+    {
+      "source_path": "erdos850/QUESTION-LOCK.json",
+      "destination": "research/QUESTION-LOCK.json",
+      "bytes": 1751,
+      "source_blob": "0ada0ce9e10f593ba3c99261c038f18d38932ce2",
+      "sha256": "004d31e5ae60f14f7a6bc24a2401b127d3c65dcc99733dd2ec9070224352eb49"
+    },
+    {
+      "source_path": "erdos850/SEARCH-REPORT-2026-09-02.md",
+      "destination": "research/SEARCH-REPORT-2026-09-02.md",
+      "bytes": 17253,
+      "source_blob": "4a536f221e036e29cebbfdb5f4ecee41e024a62d",
+      "sha256": "e0ac01a2a333a525f2f87ddcaf5d4b165983a7dd63d393967e92501a58a1793a"
+    },
+    {
+      "source_path": "erdos850/abc/PRIOR-ART-VERDICT-2026-09-02.md",
+      "destination": "research/abc/PRIOR-ART-VERDICT-2026-09-02.md",
+      "bytes": 13492,
+      "source_blob": "b231f5ed135a4dfa413ff30e6e538be0e5359117",
+      "sha256": "8731e15640481aa128fc10f5199dd3fca272da0d4d740616d0e546bd08c774cb"
+    },
+    {
+      "source_path": "erdos850/kernel/Erdos850Witness.lean",
+      "destination": "research/kernel/Erdos850Witness.lean",
+      "bytes": 5975,
+      "source_blob": "883099a49b057598333636de5b89fbd405708a00",
+      "sha256": "f6245b6d5bd684e26ce1d158c48ab0ba8ea36c12c0230a0e4c567adeade2b905"
+    },
+    {
+      "source_path": "erdos850/kernel/lean850.log",
+      "destination": "research/kernel/lean850.log",
+      "bytes": 690,
+      "source_blob": "d2b7cc8512374a3771c0776a766793e61f8190f0",
+      "sha256": "732bfb30ddca079f30dab8d90a67785b3f7cadeda848691e19a83678f75d5fbc"
+    },
+    {
+      "source_path": "erdos850/logs/brute-1e8-k3.log",
+      "destination": "research/logs/brute-1e8-k3.log",
+      "bytes": 119,
+      "source_blob": "fc4c50fdfdeddf6b2c490be9e081e4e2018a888b",
+      "sha256": "f5c3477ee2b4e13089ccac482eefe88947e91817304088b2010aab06768ed31b"
+    },
+    {
+      "source_path": "erdos850/logs/watch850.log",
+      "destination": "research/logs/watch850.log",
+      "bytes": 6187,
+      "source_blob": "59c6f3cf2c3f36af49646c835e26a0f86d8e84c0",
+      "sha256": "7a84b19483f0a9c216ee011b9d47414c32ffb4978f9f66c6a27a29f44e9d2857"
+    },
+    {
+      "source_path": "erdos850/peer-net/erdos850-RECEIPT.json",
+      "destination": "research/peer-net/erdos850-RECEIPT.json",
+      "bytes": 105,
+      "source_blob": "bace222749ac1975e4b98c437dd922955e25e1bd",
+      "sha256": "8b63fef81086c0e80989fb6b2d5ae11ccc53db018a99f1975ead94125b60f525"
+    },
+    {
+      "source_path": "erdos850/peer-net/search850-peer-net-1e9.log",
+      "destination": "research/peer-net/search850-peer-net-1e9.log",
+      "bytes": 357,
+      "source_blob": "fdd3803c3c18a6b6cc5337060591ca677b763631",
+      "sha256": "c658e934e8cb90f867c1d29a51fdd91d12ca94b1f3ad2676aa919a73d843ce77"
+    },
+    {
+      "source_path": "erdos850/receipts/ALL-SURVIVORS-K3.txt",
+      "destination": "research/receipts/ALL-SURVIVORS-K3.txt",
+      "bytes": 1091739,
+      "source_blob": "b2d6f9cb48215758032bacff69afb0dc012ae8c0",
+      "sha256": "47d75af2150dee140cef82ad2d8a01aa13a662f35bede303ab4a1aad8b51cdcd"
+    },
+    {
+      "source_path": "erdos850/receipts/MASTER-RECEIPT.json",
+      "destination": "research/receipts/MASTER-RECEIPT.json",
+      "bytes": 1657351,
+      "source_blob": "867e5f0cd503a80db44a4393f2c01b1e51c99afa",
+      "sha256": "3649c0856bbdd0e67bf96c66c0503ffb65dd8ab108a5ddec311db06688b914ce"
+    },
+    {
+      "source_path": "erdos850/receipts/RECEIPT-control-3e6.json",
+      "destination": "research/receipts/RECEIPT-control-3e6.json",
+      "bytes": 5455,
+      "source_blob": "a7880708045dd81d772d6e3d3eb0878d2b33dc3c",
+      "sha256": "f719935e9062ca7dc1eff76e0c1a8e8232fd6bd5623a0a9968f524d5947407e9"
+    },
+    {
+      "source_path": "erdos850/receipts/SAMPLE-SUBSET.txt",
+      "destination": "research/receipts/SAMPLE-SUBSET.txt",
+      "bytes": 5091,
+      "source_blob": "b1889d3e19d37d55da288af87349a03825909710",
+      "sha256": "5944258d572e419f17a52f325ab80bfa7338938ad13ae62619fbbded655700f7"
+    },
+    {
+      "source_path": "erdos850/receipts/naive-k2-3e6.json",
+      "destination": "research/receipts/naive-k2-3e6.json",
+      "bytes": 702,
+      "source_blob": "9cb0be7c832063f04bd273dfac6dfc66ad6298e5",
+      "sha256": "4bc12bb42bb04a72236fe719caf37af068d5042191b494edcee0311943093d1a"
+    },
+    {
+      "source_path": "erdos850/receipts/survivors-k3-control-3e6.txt",
+      "destination": "research/receipts/survivors-k3-control-3e6.txt",
+      "bytes": 9086,
+      "source_blob": "6d15e02f8f3413556363b8d0faba51e91f00c87e",
+      "sha256": "7a99742d1bdbd0449843d63dc5cab649cf805c9de738505a118185056710cbca"
+    },
+    {
+      "source_path": "erdos850/scripts/drive850.py",
+      "destination": "research/scripts/drive850.py",
+      "bytes": 4978,
+      "source_blob": "3351a497ae10bc1426b91331f782a6efd7294aaa",
+      "sha256": "ab966a308c6c222429173005e2e78ffa24f7bf10063fdc7f9166656a66e84c3e"
+    },
+    {
+      "source_path": "erdos850/scripts/e850.c",
+      "destination": "research/scripts/e850.c",
+      "bytes": 8176,
+      "source_blob": "01cc4e1cd13a7036e9f561a3c50f72f5300bf240",
+      "sha256": "e62c2468b11105f92b1c6769d9f7d58bed05c8fe9d6fc69f156b4d47e37d0687"
+    },
+    {
+      "source_path": "erdos850/scripts/e850_brute.c",
+      "destination": "research/scripts/e850_brute.c",
+      "bytes": 3406,
+      "source_blob": "2920440269b6d9b639b38548aed10ac8290ccd50",
+      "sha256": "6514c99c2a2d941d39329ba7960db2010c75f36e795e2d65fbcb7d9819c28bbe"
+    },
+    {
+      "source_path": "erdos850/scripts/e850_collide.py",
+      "destination": "research/scripts/e850_collide.py",
+      "bytes": 13503,
+      "source_blob": "6a962eb5cdff2ff97be08efad8acddb5bd501e39",
+      "sha256": "ed976915c566a594159e12347b59654ef198ed4b8e1998d7991074df293af26d"
+    },
+    {
+      "source_path": "erdos850/scripts/e850_frontier.py",
+      "destination": "research/scripts/e850_frontier.py",
+      "bytes": 962,
+      "source_blob": "2b368b0c002397e9175b487ee7dc87708934debc",
+      "sha256": "b58b0217bcda47d0aad3bb14cfea0c29ba31677cbd6d042a9aa096ede99de41f"
+    },
+    {
+      "source_path": "erdos850/scripts/e850_naive.py",
+      "destination": "research/scripts/e850_naive.py",
+      "bytes": 2277,
+      "source_blob": "d22a085d2a28d6a797324e3efc62a25f66e3f6b7",
+      "sha256": "b1b6a4951bc4ce084e6e378660b38f146e89ab9a5317561f6a96d7e3fe9d19b8"
+    },
+    {
+      "source_path": "erdos850/scripts/e850_verify.py",
+      "destination": "research/scripts/e850_verify.py",
+      "bytes": 3247,
+      "source_blob": "363dcaf1a1be5cfcdfdaec06e2572f6235dbb539",
+      "sha256": "8a6f0a152ca21a364e1023b2183ceefd660e280543539eec51375d6ade65cb5d"
+    },
+    {
+      "source_path": "erdos850/scripts/watch850.sh",
+      "destination": "research/scripts/watch850.sh",
+      "bytes": 1968,
+      "source_blob": "fea6567888ccd3d630fabe9c964547c8aa1d067e",
+      "sha256": "a054794b6fb6965bbdb85ff16409a25e4b9078ca644a440000fa41cdfacb9647"
+    }
+  ]
+}

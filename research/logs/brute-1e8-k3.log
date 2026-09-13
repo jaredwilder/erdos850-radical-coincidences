@@ -1,0 +1,3 @@
+[brute] radical sieve to 100000003 done 5s
+[brute] sort done 22s
+[brute] N=100000000 k=3 NO_PRUNE collisions=0 secs=23

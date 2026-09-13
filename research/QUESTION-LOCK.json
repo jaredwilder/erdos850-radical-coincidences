@@ -1,0 +1,8 @@
+{
+ "statement": "Exhaustive witness search for Erdos 850: find x != y (naturals, both <= N) with rad(x)=rad(y), rad(x+1)=rad(y+1), rad(x+2)=rad(y+2), where rad(n) is the product of the distinct primes dividing n. Exact integer arithmetic (segmented sieve for rad, sort-based triple collision detection), receipts per segment with the exact frontier N reached. A found witness is re-verified by an independent script and then kernel-checked by decide.",
+ "definition_source": "Erdos problem 850 as formalized by DeepMind formal-conjectures (kernel statement in oracle/evidence/msl-machine/contracts/erdos850/source/lean-github.txt) and indexed at erdosproblems.com/850; rad(n) per Mathlib Nat.radical / the standard squarefree kernel definition (Erdos & Graham 1980, Old and new problems and results in combinatorial number theory, Monogr. Enseign. Math. 28, for the problem family).",
+ "asked_question": "Close a canonical open Erdos problem (operator: the bar). The pool root-shape scan found erdos:850 to be the single existential root in the 307-pool whose affirmative branch closes with ONE witness plus decide; no witness exists for x,y <= 5,000,000 (search850.py, 2026-09-02).",
+ "narrower_than_asked": true,
+ "proxy_reason": "A bounded search cannot prove NON-existence (the negative branch is open); it can only find a witness. If a witness exists within reach, that IS a canonical close (the question is existential). If none is found to the frontier, the receipt is COMPUTATION evidence of a bound, never closure - stated in every outcome line.",
+ "novel_if": "Any witness would resolve Erdos 850 affirmatively (new result, immediately kernel-checkable). An exhaustion bound beyond the literature's is a recorded computational fact only."
+}

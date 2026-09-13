@@ -1,0 +1,9 @@
+'Erdos850Search.two_term_witness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos850Search.two_term_witness_6_48' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos850Search.two_term_witness_75_1215_outside_family' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos850Search.odd_sq_succ_mod_eight' depends on axioms: [propext, Quot.sound]
+'Erdos850Search.odd_sq_succ_not_pow_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos850Search.family_never_extends' depends on axioms: [propext, Classical.choice, Quot.sound]
+=== progress ===
+8
+[drive850] sh0007 lo=27343750001 hi=31250000001 rc=0 done=8 skip=0 fail=0 elapsed=406s

@@ -1,0 +1,7 @@
+850 hunt: N=1000000000, control_bound=3000000  (rad sieve + triple-collision, from 0)
+  rad sieve to 1000000000 done (164.6s)
+  CONTROL 2-term below 3e6: found 10 (known 10 = 9 family + exceptional (75,1215))
+    missing known: [] | unexpected extra: []
+  CONTROL_TRUSTED: True
+
+NO 3-term witness with max(x,y) <= 1000000000  [control_trusted=True, 533.5s]

@@ -1,0 +1,276 @@
+{
+ "tool": "e850_collide.py",
+ "tag": "CONTROL-3e6",
+ "utc": "2026-09-02T14:13:10Z",
+ "problem": "Erdos 850: exists x != y with rad(x+i)=rad(y+i) for i=0..k-1",
+ "k": 3,
+ "frontier_N": 3000000,
+ "prune_bound_nmax": 3000000,
+ "two_term_bound_nmax2": 3000000,
+ "frontier_meaning": "no witness pair (x,y) with 1 <= x < y <= frontier_N, i.e. max(x,y) <= N",
+ "collision_scope": "GLOBAL_ACROSS_ALL_SEGMENTS",
+ "collision_scope_note": "Every survivor signature from every segment over [1,N] enters ONE global sorted structure in this script; collisions are detected across that single merge, so pairs straddling segment boundaries ARE found. The per-segment counts in 'segments' below are CANDIDATE counts only and are never a collision check. The survivor set is the complete candidate set by the Difference Lemma, so the global merge over survivors is equivalent to a global merge over all n <= N.",
+ "verdict": "NO_WITNESS_TO_FRONTIER",
+ "prior_ground": {
+  "source": "MINE/probe850b.log",
+  "covered_max_xy": 30000000,
+  "collisions": 0,
+  "note": "prior independent brute force; this run re-covers and extends it"
+ },
+ "honesty": "Exhaustion to N is COMPUTATION evidence of a bound, NEVER closure of the negative branch. Only a verified witness closes anything.",
+ "method": "Difference Lemma prune: for a witness, L_k(n)=rad(n..n+k-1) divides y-x, and L_k(x)=L_k(y); with x<y<=N this forces L_k(n) <= N-1 for BOTH endpoints. Sieve L_k(n) exactly for every n <= N (segmented radical sieve), keep the survivors, collide their radical tuples. Exact, complete, no heuristic.",
+ "question_lock": "oracle/ledger/question-locks/erdos850-rad-triple-witness.json",
+ "streams": {
+  "k_term": {
+   "files": [
+    {
+     "path": "surv-k3-3e6.txt",
+     "sha256": "7a99742d1bdbd0449843d63dc5cab649cf805c9de738505a118185056710cbca",
+     "bytes": 9086
+    }
+   ],
+   "survivor_count": 437,
+   "collision_count": 0,
+   "collisions": []
+  },
+  "two_term_calibration": {
+   "files": [
+    {
+     "path": "surv-k2-3e6.txt",
+     "sha256": "28cdd3d67bf640e397061dfdf456d8cc9270d005619a9e7b04455796b5359d75",
+     "bytes": 142828
+    }
+   ],
+   "survivor_count": 6742,
+   "collision_count": 10,
+   "collisions": [
+    {
+     "x": 2,
+     "y": 8,
+     "radicals": [
+      2,
+      3
+     ],
+     "L": 6
+    },
+    {
+     "x": 6,
+     "y": 48,
+     "radicals": [
+      6,
+      7
+     ],
+     "L": 42
+    },
+    {
+     "x": 14,
+     "y": 224,
+     "radicals": [
+      14,
+      15
+     ],
+     "L": 210
+    },
+    {
+     "x": 30,
+     "y": 960,
+     "radicals": [
+      30,
+      31
+     ],
+     "L": 930
+    },
+    {
+     "x": 75,
+     "y": 1215,
+     "radicals": [
+      15,
+      38
+     ],
+     "L": 570
+    },
+    {
+     "x": 62,
+     "y": 3968,
+     "radicals": [
+      62,
+      21
+     ],
+     "L": 1302
+    },
+    {
+     "x": 126,
+     "y": 16128,
+     "radicals": [
+      42,
+      127
+     ],
+     "L": 5334
+    },
+    {
+     "x": 254,
+     "y": 65024,
+     "radicals": [
+      254,
+      255
+     ],
+     "L": 64770
+    },
+    {
+     "x": 510,
+     "y": 261120,
+     "radicals": [
+      510,
+      511
+     ],
+     "L": 260610
+    },
+    {
+     "x": 1022,
+     "y": 1046528,
+     "radicals": [
+      1022,
+      1023
+     ],
+     "L": 1045506
+    }
+   ],
+   "known_family_expected": [
+    {
+     "x": 2,
+     "y": 8
+    },
+    {
+     "x": 6,
+     "y": 48
+    },
+    {
+     "x": 14,
+     "y": 224
+    },
+    {
+     "x": 30,
+     "y": 960
+    },
+    {
+     "x": 62,
+     "y": 3968
+    },
+    {
+     "x": 126,
+     "y": 16128
+    },
+    {
+     "x": 254,
+     "y": 65024
+    },
+    {
+     "x": 510,
+     "y": 261120
+    },
+    {
+     "x": 1022,
+     "y": 1046528
+    }
+   ],
+   "known_family_missing": [],
+   "outside_known_family": [
+    {
+     "x": 75,
+     "y": 1215
+    }
+   ],
+   "outside_known_family_count": 1,
+   "known_answer_gate_below_3e6": {
+    "applicable": true,
+    "expected_pairs": [
+     {
+      "x": 2,
+      "y": 8
+     },
+     {
+      "x": 6,
+      "y": 48
+     },
+     {
+      "x": 14,
+      "y": 224
+     },
+     {
+      "x": 30,
+      "y": 960
+     },
+     {
+      "x": 75,
+      "y": 1215
+     },
+     {
+      "x": 62,
+      "y": 3968
+     },
+     {
+      "x": 126,
+      "y": 16128
+     },
+     {
+      "x": 254,
+      "y": 65024
+     },
+     {
+      "x": 510,
+      "y": 261120
+     },
+     {
+      "x": 1022,
+      "y": 1046528
+     }
+    ],
+    "expected_count": 10,
+    "found_count": 10,
+    "missing": [],
+    "unexpected_new_findings": [],
+    "EXACT_MATCH": true,
+    "note": "9 of the 10 lie on the family x = 2^m - 2, y = x(x+2); (75, 1215) does NOT. No structural prune is used anywhere in this search - the only prune is the Difference Lemma, a proved implication. Exhaustive means exhaustive."
+   },
+   "CALIBRATION_OK": true
+  }
+ },
+ "scanned_total": 3000000,
+ "coverage_gaps": [],
+ "coverage_complete": true,
+ "cross_checks": {
+  "L_recomputed_mismatch": 0,
+  "L_exceeds_nmax": 0,
+  "radical_does_not_divide": 0,
+  "all_pass": true
+ },
+ "segments": [
+  {
+   "lo": 1,
+   "hi": 1000001,
+   "scanned": 1000000,
+   "survivors_k": 437,
+   "survivors_2": 6656,
+   "log": "seg-3e6.log"
+  },
+  {
+   "lo": 1000001,
+   "hi": 2000001,
+   "scanned": 1000000,
+   "survivors_k": 0,
+   "survivors_2": 67,
+   "log": "seg-3e6.log"
+  },
+  {
+   "lo": 2000001,
+   "hi": 3000001,
+   "scanned": 1000000,
+   "survivors_k": 0,
+   "survivors_2": 19,
+   "log": "seg-3e6.log"
+  }
+ ],
+ "segment_count": 3,
+ "EXHAUSTIVE_AND_COMPLETE": true,
+ "secs": 0.03
+}
